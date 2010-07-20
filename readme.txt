@@ -13,9 +13,9 @@ This plugin implements gzip output compression to speed up load times.
 
 The plugin also does a check to see if browsers are incorrectly saying that they do not support GZIP when they actually do. This can speed up load times for a significant portion of users.
 
-<blockquote>For requests with missing or mangled Accept-Encoding headers, inspect the User-Agent to identify browsers that should understand gzip.
+`For requests with missing or mangled Accept-Encoding headers, inspect the User-Agent to identify browsers that should understand gzip.
 * Test their ability to decompress gzip.
-* If successful, send them gzipped content!</blockuote>
+* If successful, send them gzipped content!`
 
 See:
 
